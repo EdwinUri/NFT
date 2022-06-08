@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@600&family=Great+Vibes&family=League+Spartan:wght@200&family=Pacifico&family=Poppins:ital,wght@0,200;0,400;1,100;1,300&family=Roboto:ital,wght@1,300&family=Sacramento&display=swap');
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Poppins', sans-serif;
+    margin: 40px;
+    border-radius: 10px;
+}
+.container{
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 10px 10px 15px 0px;
+    box-sizing: border-box;
+    width: 80%;
+    height: 10%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top:-10px ;
+    margin: auto;
+}
+.img img{
+    width: 190px;
+    height: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.info .text1{
+    color: white;
+    font-weight: bold;
+    margin-left:10px ;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.info .text2{
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+    margin-top: 70px;
+    margin-left: -100px;
+    text-align: start;
+}
+.credits {
+    text-align: start;
+}
+.credits img{
+    border:solid white ;
+    border-radius: 50%;
+    border-width: 1px;
+    width: 30px;
+    margin-top: -5px;
+    margin-left: -5px;
+
+}
+.credits p{
+    margin-top: -35px;
+    text-align: end;
+    margin-right: 20px;
+
+}
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.info #dato{
+    color:hsl(178, 100%, 50%);
+}
+.info #day{
+    color: hsl(215, 51%, 70%);
+}
+.container .credits{
+    padding:10px  10px;
+}
+.credits p b{
+    color: white;
+    font-weight: 100;
+}
